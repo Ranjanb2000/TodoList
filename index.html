@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="todo.css">
+    <title>Todo List App</title>
+</head>
+<body>
+    <div class="hor">
+        <div class="text">
+            <input type="text" id="inp" placeholder="Type your Todo List">
+            <button id="add">+</button>
+        </div>
+        <div class="user">
+            <button  id="tick">
+                Complete All 
+            </button>
+            <button  id="uncomplete">
+                clear Completed
+            </button>
+        </div>
+        <div class="access">
+            <button id="all">
+                All
+            </button>
+            <button id="complete">
+                Completed
+            </button>
+            <button id="uncomp">
+                Uncompleted
+            </button>
+        </div>
+
+        <hr>
+        
+        <ul id="list">
+         <!--  <li> 
+                <input type="checkbox" id="124535" class="custom">
+                <label>tyeuukdre</label>
+                <img src="https://cdn-icons-png.flaticon.com/512/3405/3405244.png" id="delete">
+            </li>-->
+        </ul>
+        <hr>
+        <span class="foot">
+            Task Left :
+            <p class="Task" id="count">
+                0
+            </p>
+            <img src="https://cdn-icons-png.flaticon.com/512/3405/3405244.png" class="clear">
+            <div class="hide">Clear All</div> 
+        </span>
+    </div>
+    <script src="list.js"></script>
+</body>
+</html>
